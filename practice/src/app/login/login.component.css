@@ -1,0 +1,22 @@
+.login-container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(135deg, green, orange);
+    position: relative;
+    .logo{
+        font-size: 70px;
+        font-weight: bold;
+        font-family: Arial;
+        position: absolute;
+        top: 50px;
+        right: 50px;
+    }
+    .desc{
+        font-size: 24px;
+        position: absolute;
+        top: 200px;
+        right: 50px;
+        text-align: right;
+        width: 60%;
+    }
+}
